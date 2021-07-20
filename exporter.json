@@ -1,0 +1,22 @@
+{
+    "id": "io.supernova.empty",
+    "name": "Empty (test)",
+    "description": "Empty exporter",
+    "source_dir": "src",
+    "version": "1.0.0",
+    "tags": [
+        "Test",
+        "Empty"
+    ],
+    "author": "Vaclav Lustek",
+    "organization": "Supernova",
+    "homepage": "https://supernova.io",
+    "config": {
+        "output": "output.json",
+        "sources": "sources.json"
+    },
+    "engines": {
+        "pulsar": "1.0.0",
+        "supernova": "1.0.0"
+    }
+}
